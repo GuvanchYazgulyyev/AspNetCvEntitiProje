@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="CvEntitiProje.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="Proje%202%20Karanlık%20Mod%20Yapma/style.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <title>Bootstrap Example</title>
+            <link href="Proje%202%20Karanlık%20Mod%20Yapma/style.css" rel="stylesheet" />
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        </head>
+        <body>
+
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="Default.aspx">CV Sitem Linq</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="istatistikler.aspx">İstatistikler</a></li>
+                        <li><a href="Deneyimler.aspx">Deneyimler</a></li>
+                        <li><a href="Yeteneklerim.aspx">Yeteneklerim</a></li>
+                        <li><a href="iletisim.aspx">İletişim</a></li>
+                        <li><a>
+                            <label class="mode-control">
+                                <input id="mod-btn" type="checkbox">
+                                <span>Koyu Mod</span>
+                                <span>Açık Mod</span>
+
+                            </label>
+                        </a></li>
+
+                    </ul>
+                </div>
+            </nav>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <div class="container">
+                        <h3>Inverted Navbar</h3>
+                        <p>An inverted navbar is black instead of gray.</p>
+                    </div>
+
+
+
+                </asp:ContentPlaceHolder>
+            </div>
+    </form>
+
+
+    <script src="Proje%202%20Karanlık%20Mod%20Yapma/script.js"></script>
+</body>
+</html>
