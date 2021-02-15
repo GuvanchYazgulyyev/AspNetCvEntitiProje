@@ -40,6 +40,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <p class="top_hdp mt-2">Bilğisayar Öğretmenligi Teknolojileri (BÖTE)</p>
         </div>
         <!-- header -->
+
+        <!----       Buraya ekleme Yapabilirsiniz------->
         <header>
             <div class="nav-top">
                 <nav class="mnu mx-auto">
