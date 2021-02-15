@@ -52,7 +52,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li class="mt-sm-3"><a href="#about" class="scroll">Eğitim Hayatım</a></li>
                         <li class="mt-sm-3"><a href="#services" class="scroll">Yeteneklerim</a></li>
                         <li class="mt-sm-3"><a href="#news" class="scroll">Deneyimlerim</a></li>
-                        <li class="mt-sm-3"><a href="#contact" class="scroll">İletişim</a></li>
+                        <li class="mt-sm-3"><a href="#contact" class="scroll">İletişim</a></li> 
                     </ul>
                 </nav>
             </div>
@@ -160,7 +160,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <div class="cpy-right text-center">
                 <p>
-                    © 2020 Conjoint. Bilğisayar Öğretmeni | Guvanch Yazgulyyev
+                    © 2020. Bilğisayar Öğretmeni | Guvanch Yazgulyyev
 					
                 </p>
             </div>
